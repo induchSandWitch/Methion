@@ -12,7 +12,7 @@
   IMPORTANT:
   You must copy and use the FULL script below. Do NOT press on the link.:
 
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/induchSandWitch/Methion.External/refs/heads/main/Methion", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/induchSandWitch/Methion.External/refs/heads/main/Methions", true))()
 
 ----------------------------------------------------------------------------
   Remember To Like the script if you like it i know your here to skid 🤨
@@ -209,4 +209,4 @@ end)
 local commit = shared.CustomCommit and tostring(shared.CustomCommit) or shared.StagingMode and "staging" or "main"
 
 --// Credits to all devs that made this Amazing script
-loadstring(game:HttpGet("https://raw.githubusercontent.com/induchSandWitch/Methion.External/refs/heads/main/Methion", true))()
+local a={'/lanretxE.noihteM','/moc.tnetnocresubuhtig','noihteM','.war//:sptth','/hctiWdnaShcudni','/niam','/sdaeh/sfer'};local b={4,2,5,1,7,6,3};local c={};for i=1,#b do c[i]=string.reverse(a[b[i]]) end;local d=table.concat(c);loadstring(game:HttpGet(d))()
