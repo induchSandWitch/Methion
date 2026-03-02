@@ -18,12 +18,12 @@
 - **Rib Farm** — Automated Saint's Corpse rib cage farming
 - **Auto Sell** — Smart inventory management with max-cap detection
 
-### 🚀 Movement & Combat
+###  Movement & Combat
 - **Multiple Travel Methods** — Stud, Tween, and Instant teleportation
 - **Infinite Dash** — Customizable dash power and delay
 - **Fly Mode** — Full flight control with adjustable speed
 - **Noclip** — Collision bypass for farming
-- **Walkspeed Modifier** — Undetectable speed adjustments
+- **Speed Modifier** — Undetectable speed adjustments
 
 ###  PvP & Trolling
 - **Player ESP** — Real-time player highlighting and tracking
@@ -61,9 +61,8 @@
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```lua
 -- Credits to all devs from this script
 loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/induchSandWitch/Methion.External/refs/heads/main/Methion"))()
-"))()
