@@ -124,7 +124,7 @@ end
 shared.CheatEngineMode = shared.CheatEngineMode or CheatEngineMode
 shared.ForcePlayerGui = true
 
-if game.PlaceId ~= 2809202155 and game.PlaceId ~= 4639625707 then
+if game.PlaceId ~= 2809202155 and game.PlaceId ~= 2809202155 then
     pcall(function()
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = "Methion | YBA",
