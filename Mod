@@ -1,0 +1,35 @@
+local AllMods = {
+    "UzuKee", "BLOODTARO", "Dxscape", "Myst_Ari", "eurycIea", "v_cks", "ezguap", 
+    "Tsuzutou", "ReferToWithered", "Illus0", "Pyreiz", "VoidedFlame", "ROUXABOUT", 
+    "mixeriiiiiing", "MichDrajo", "hayst4", "ElmoNYC", "Core_CorruptionF", "Brillcake", 
+    "AxionTheRevenant", "sammyj0n", "ViveLesPatat", "Zimvasion", "vertiify", "redfoxP", 
+    "cakesucker05", "00kamiMio", "itscanii", "SirDeviloper", "0nkka", "Ramdharam", 
+    "Olliebutheskenny", "cswag_code", "TwoGio", "KoleRTX2", "Wilpuri", "remendyy", 
+    "SpaceNuggies", "CrimsonBeheIit", "warycoolio"
+}
+
+local function FindInTable(Table, Value)
+    for i, v in pairs(Table) do
+        if v == Value then
+            return true
+        end
+    end
+    return false
+end
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+task.spawn(function()
+    for _, plr in pairs(Players:GetPlayers()) do
+        if plr ~= LocalPlayer and FindInTable(AllMods, plr.Name) then
+            LocalPlayer:Kick("Mod detected: " .. plr.Name .. " | User: " .. LocalPlayer.Name)
+        end
+    end
+end)
+
+Players.PlayerAdded:Connect(function(plr)
+    if FindInTable(AllMods, plr.Name) then
+        LocalPlayer:Kick("Mod detected: " .. plr.Name .. " | User: " .. LocalPlayer.Name)
+    end
+end)
