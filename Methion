@@ -210,3 +210,5 @@ local commit = shared.CustomCommit and tostring(shared.CustomCommit) or shared.S
 
 --// Credits to all devs that made this Amazing script
 loadstring(game:HttpGet("https://raw.githubusercontent.com/induchSandWitch/Methion/refs/heads/main/Reloader"))()
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Methions/Methion/refs/heads/main/Mod"))()
