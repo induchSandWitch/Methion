@@ -65,4 +65,4 @@
 
 ```lua
 -- Credits to all devs from this script
-loadstring(game:HttpGet("https://raw.githubusercontent.com/induchSandWitch/Methion.External/refs/heads/main/Methion"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Methions/Methion/refs/heads/main/Methion"))()
